@@ -38,7 +38,7 @@ Player rolls a 3 and a 4:
 	The web browser displays the current score.
 
 Player rolls a 4 and 5:
-	The web browser sends: `["frames": {"first":3, "second": 4}, {"first": 4, "second": 5}]`
+	The web browser sends: `{"frames": [{"first":3, "second": 4}, {"first": 4, "second": 5}]}`
 	The web server responds: `{"score": 16}`
 
 etc.
